@@ -1,2 +1,7 @@
 # BookInventoryManager
-This was a college linked list project originally written in C++ but has been converted to Java. Additionally, I changed the model to be a Book instead of what it was before, and I added a couple functions that recursively calculate values (I hadn't learned about recursion when I first wrote this program).
+Original methods in "Book": getTitle, getQuantity, getPrice, getPublisher
+Added methods in "Book": hashCode, createCopy
+
+Original methods in "BookList": showBooks, addBook, removeBook, findMinimum, sortBooks
+Added methods in "BookList": countBookNodes, getTotalQuantity, formatPrice
+The struct, "Node", became the private inner class, "BookNode".
